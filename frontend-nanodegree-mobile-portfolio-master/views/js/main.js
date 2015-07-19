@@ -449,6 +449,7 @@ var resizePizzas = function(size) {
   }
 
   // Iterates through pizza elements on the page and changes their widths
+  // Code was caught in the for loop and was slowing everything down. Kept it in the function, but moved it above the for loop.
   function changePizzaSizes(size) {
     ar dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
       var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
