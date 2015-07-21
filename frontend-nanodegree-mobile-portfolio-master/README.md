@@ -4,6 +4,7 @@ Index.html Optimizations:
 
 1. Image files reduced in size.
 2. In-lined critical CSS.
+3. Async'd JS analytics file.
 
 main.js Optimizations:
 
