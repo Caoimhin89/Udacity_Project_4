@@ -1,5 +1,7 @@
 ## Website Performance Optimization portfolio project
 
+Visit my Github page at https://github.com/Caoimhin89/ and then click on index.html to view the site.
+
 Index.html Optimizations:
 
 1. Image files reduced in size.
