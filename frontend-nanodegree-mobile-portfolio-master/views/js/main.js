@@ -502,6 +502,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // https://www.igvita.com/slides/2012/devtools-tips-and-tricks/jank-demo.html
 
 // Moves the sliding background pizzas based on scroll position
+// moved items variable declaration outside the for loop.
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
@@ -529,6 +530,7 @@ window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
 // Decreased the number of sliding pizzas. We don't need 200.
+// put elem variable declaration outside the for loop.
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
